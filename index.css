@@ -1,0 +1,147 @@
+.containeur{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.containeur__ecran{
+    display: flex;
+    width: 350px;
+    height: 300px;
+    background-color: grey;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ecran{
+    width: 35%;
+    height: 35%;
+    background-color: black;
+    color: green;
+}
+.ecran__select{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ecran__select button{
+    width: 50%;
+}
+.containeur__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 10%;
+    height: 35%;
+
+}
+.slot__ticket{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    border: 2px solid silver;
+}
+.slot__card{
+    background-color: black;
+    width: 100%;
+    height: 8%;
+    border: 2px solid silver;
+}  
+
+.slot__card:hover{
+    background-color: green;
+}
+
+.instruction__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border: 2px solid silver;
+}
+.instruction__card:hover{
+    transform: translateY(25%);
+}
+
+.triangle{
+        display : inline-block;
+        margin-top: 5%;
+        height : 0;
+        width : 0;
+        border-right : 12px solid transparent;
+        border-bottom : 12px solid green;
+        border-left : 12px solid transparent;
+}
+
+.card__translate{
+    border-bottom: 27px solid black;
+    border-left  : 6px solid transparent; 
+    border-right : 6px solid transparent;
+    height : 0;
+    width  : 65%;
+}
+
+.card__chip{
+    width: 6px;
+    height: 6px;
+    background-color: gold;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+.slot__billet{
+    position: absolute;
+    margin-top: 60%;
+    width: 35%;
+    height: 4%;
+    background-color: black;
+    border: 2px solid silver;
+}
+.container__pin{
+    display: flex;
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    border-top: 1px solid silver;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.number__clavier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 60%;
+}
+
+.row__number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__select{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    height: 60%;
+}
+
+
+
+
+
