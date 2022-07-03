@@ -1,8 +1,10 @@
 .containeur{
     display: flex;
     width: 1000px;
-    height: 1200px;
+    height: 800px;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -16,7 +18,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 }
 .ecran{
     width: 35%;
@@ -67,12 +69,16 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 65%;
+    height: 50%;
     border: 2px solid silver;
+}
+.instruction__card:hover{
+    transform: translateY(25%);
 }
 
 .triangle{
         display : inline-block;
+        margin-top: 5%;
         height : 0;
         width : 0;
         border-right : 12px solid transparent;
@@ -81,15 +87,61 @@
 }
 
 .card__translate{
-    width: 80%;
-    height: 70%;
-    background-color: black;
+    border-bottom: 27px solid black;
+    border-left  : 6px solid transparent; 
+    border-right : 6px solid transparent;
+    height : 0;
+    width  : 65%;
 }
 
 .card__chip{
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     background-color: gold;
-    margin-top: 5%;
-    margin-left: 30%;
+    margin-top: 8%;
+    margin-left: 40%;
 }
+.slot__billet{
+    position: absolute;
+    margin-top: 60%;
+    width: 35%;
+    height: 4%;
+    background-color: black;
+    border: 2px solid silver;
+}
+.container__pin{
+    display: flex;
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    border-top: 1px solid silver;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.number__clavier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 60%;
+}
+
+.row__number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__select{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    height: 60%;
+}
+
+
+
+
+
