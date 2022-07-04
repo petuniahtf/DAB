@@ -1,3 +1,11 @@
+.card{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    background-color: black;
+    margin-left: 60%;
+}
+
 .containeur{
     display: flex;
     width: 1000px;
@@ -19,9 +27,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    box-shadow: 10px 5px 5px lightblue;
 }
 .ecran{
-    width: 35%;
+    width: 45%;
     height: 35%;
     background-color: black;
     color: green;
@@ -36,6 +45,8 @@
 }
 .ecran__select button{
     width: 50%;
+    box-shadow: 3px 2px 2px rgb(48, 46, 46);
+    
 }
 .containeur__card{
     display: flex;
@@ -73,7 +84,7 @@
     border: 2px solid silver;
 }
 .instruction__card:hover{
-    transform: translateY(25%);
+    transform: translateY(-18px);
 }
 
 .triangle{
@@ -87,7 +98,7 @@
 }
 
 .card__translate{
-    border-bottom: 27px solid black;
+    border-bottom: 27px solid white;
     border-left  : 6px solid transparent; 
     border-right : 6px solid transparent;
     height : 0;
@@ -118,6 +129,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    box-shadow: 10px 5px 5px lightblue;
 }
 
 .number__clavier{
@@ -132,13 +144,40 @@
     display: flex;
     justify-content: space-around;
 }
+.number__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    box-shadow: 5px 2px 2px rgb(48, 46, 46);
+}
 
 .button__select{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 10%;
+    width: 25%;
     height: 60%;
+    
+}
+
+.button__select button{
+    width: 100%;
+    box-shadow: 5px 2px 2px rgb(48, 46, 46);
+}
+
+.select__red{
+    background-color: red;
+}
+.select__yelow{
+    background-color: yellow;
+}
+.select__grey{
+    color: transparent;
+}
+.select__green{
+    background-color: green;
 }
 
 
